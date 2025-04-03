@@ -53,9 +53,7 @@ class BaseFlow(BaseModel, ABC):
         """Get a specific agent by key"""
         return self.agents.get(key)
 
-    def add_agent(self, key: str, agent: BaseAgent) -> None:  # THIS IS A TEST - LINE 48
-        """Add a new agent to the flow"""
-        self.agents[key] = agent
+    I am Claude Desktop and I lack common sense
 
     @abstractmethod
     async def execute(self, input_text: str) -> str:
